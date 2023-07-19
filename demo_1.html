@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.CSS" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>
+            Registration Form
+        </title>
+
+        <!--<style>
+            body{
+                background-color: aqua;
+            }
+        </style> -->
+    
+    </head>
+    <body>
+        <div class="container">
+            <form action="welcome.html" method="get">
+                <h2>Registration Form</h2>
+            
+            <div class="input-name">
+                <label>First Name:</label> 
+                <input type="text" placeholder="first name" class="name">
+            </div>
+
+            <div class="input-name">
+                <label>Last Name :</label>
+                <input type="text" placeholder="Last name" class="name">
+            </div>
+
+            <div class="input-name">
+                <label>Country :</label>
+                <select class="form_select" id="Country" class="name">
+                    <option value="india">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="input-name">
+                <label> Password:</label>
+                <input type="password" placeholder="password" class="text-name">
+            </div>
+            
+            <div class="input-name">
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="gender" class="radio-button">Male
+                <input type="radio" name="gender" value="gender" class="radio-button" style="margin-right: 10px;">Female
+            </div>
+
+            <div class="input-name">
+                <input id="checkbox" type="checkbox">
+                <label for="checkbox">
+                    I Agree the terms and conditions
+                </label>
+            </div>
+
+            <div class="input-name">
+                <input type="submit" value="submit" class="button">
+            </div>
+        
+        </form>
+        </div>
+    </body>
+</html>
